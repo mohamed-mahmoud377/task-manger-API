@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node src/index.js.js",
+    "start": "node src/index.js",
     "dev": "env-cmd -f ./config/dev.env nodemon src/index.js -e js,hbs,html",
     "DBconn": "C:\\Users\\moham\\mongodb\\bin/mongod.exe --dbpath=C:\\Users\\moham\\mongodb-data"
   },
